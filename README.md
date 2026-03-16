@@ -2,13 +2,13 @@
 
 This project demonstrates a lightweight security monitoring platform that combines:
 
--Access provisioning monitoring
--Enterprise risk analytics
--Security dashboards
+->Access provisioning monitoring
+->Enterprise risk analytics
+->Security dashboards
 
 The goal is to simulate how security teams monitor identity access activity, operational risks, and system integrations using automated data pipelines and dashboards.
 
-The platform contains two main modules.asets into structured analytics models for monitoring risk across systems.
+The platform contains two main modules: 
                 
                  +-----------------------------+
                  |  Security Monitoring Module |
