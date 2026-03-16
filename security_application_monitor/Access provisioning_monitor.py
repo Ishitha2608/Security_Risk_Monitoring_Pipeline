@@ -34,6 +34,9 @@ df["role"] = [roles[i % len(roles)] for i in range(len(df))]
 # Monitoring metrics
 records_received = len(df)
 api_status = response.status_code
+df["api_status"] = api_status
+df["response_time_seconds"] = response_time
+df["records_received"] = records_received
 
 print("Access Provisioning Integration Report")
 print("--------------------------------------")
