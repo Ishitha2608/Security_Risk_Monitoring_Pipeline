@@ -51,6 +51,8 @@ The dashboard visualizes identity activity including:
 
 This demonstrates how security teams track access governance and identity lifecycle events.
 
+** Dashboard export: security_application_monitor/security_access_monitoring_dashboard.pdf
+
 **Module 2 — Enterprise Risk Monitoring Pipeline**
 
 This module demonstrates a data analytics pipeline for monitoring operational and compliance risks. The pipeline transforms issue tracking data into structured analytics models used to monitor risk signals and SLA breaches.
