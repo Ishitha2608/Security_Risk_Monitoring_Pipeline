@@ -7,7 +7,9 @@ This project demonstrates a lightweight security monitoring platform that combin
 -Security dashboards
 
 The goal is to simulate how security teams monitor identity access activity, operational risks, and system integrations using automated data pipelines and dashboards.
+
 The platform contains two main modules.asets into structured analytics models for monitoring risk across systems.
+                
                  +-----------------------------+
                  |  Security Monitoring Module |
                  |  Access Provisioning Audit  |
@@ -19,19 +21,8 @@ The platform contains two main modules.asets into structured analytics models fo
                                |
                                v
                         Monitoring Dashboard
-                 +-----------------------------+
-                 |  Security Monitoring Module |
-                 |  Access Provisioning Audit  |
-                 +-------------+---------------+
-                               |
-                               | Access Data / Logs
-                               v
-                      Python Monitoring Script
-                               |
-                               v
-                        Monitoring Dashboard
-                               |
-                               v
+
+
                  +-----------------------------+
                  |  Enterprise Risk Monitoring |
                  |        Analytics Module     |
@@ -51,6 +42,7 @@ The platform contains two main modules.asets into structured analytics models fo
                                v
                         Risk Analytics Dashboard
 
+                        
 **Module 1 — Access Provisioning Monitoring**
 
 This module simulates monitoring of identity access provisioning across security systems. The script pulls identity records from an API, assigns access roles and statuses, and generates monitoring metrics used by dashboards. This mirrors how organizations monitor IAM provisioning workflows and system integrations.
