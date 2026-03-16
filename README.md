@@ -8,6 +8,36 @@ This project demonstrates a lightweight security monitoring platform that combin
 
 The goal is to simulate how security teams monitor identity access activity, operational risks, and system integrations using automated data pipelines and dashboards.
 The platform contains two main modules.asets into structured analytics models for monitoring risk across systems.
+                 +-----------------------------+
+                 |  Security Monitoring Module |
+                 |  Access Provisioning Audit  |
+                 +-------------+---------------+
+                               |
+                               | Access Data / Logs
+                               v
+                      Python Monitoring Script
+                               |
+                               v
+                        Monitoring Dashboard
+
+                 +-----------------------------+
+                 |  Enterprise Risk Monitoring |
+                 |        Analytics Module     |
+                 +-------------+---------------+
+                               |
+                               | Jira Issues
+                               v
+                        Python ETL Pipeline
+                        (Jira REST API)
+                               |
+                               v
+                          BigQuery Tables
+                               |
+                               v
+                        Risk Scoring Model
+                               |
+                               v
+                        Risk Analytics Dashboard
 
 **Module 1 — Access Provisioning Monitoring**
 
