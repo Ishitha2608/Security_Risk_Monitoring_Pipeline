@@ -19,7 +19,19 @@ The platform contains two main modules.asets into structured analytics models fo
                                |
                                v
                         Monitoring Dashboard
-
+                 +-----------------------------+
+                 |  Security Monitoring Module |
+                 |  Access Provisioning Audit  |
+                 +-------------+---------------+
+                               |
+                               | Access Data / Logs
+                               v
+                      Python Monitoring Script
+                               |
+                               v
+                        Monitoring Dashboard
+                               |
+                               v
                  +-----------------------------+
                  |  Enterprise Risk Monitoring |
                  |        Analytics Module     |
